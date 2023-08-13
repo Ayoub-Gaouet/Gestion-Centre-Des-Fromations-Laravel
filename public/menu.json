@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Dashboard",
+        "url": "home",
+        "icon": "fas fa-tachometer-alt",
+        "sousmenu": []
+    },
+    {
+        "name": "Utilisateurs",
+        "url": "users.index",
+        "icon": "fas fa-users",
+        "sousmenu": []
+    },
+    {
+        "name": "Clients",
+        "url": "clients.index",
+        "icon": "fas fa-user",
+        "sousmenu": []
+    },
+    {
+        "name": "Formateurs",
+        "url": "formateurs.index",
+        "icon": "fas fa-user",
+        "sousmenu": []
+    },
+    {
+        "name": "Formations",
+        "url": "formations.index",
+        "icon": "fas fa-users",
+        "sousmenu": [
+            {
+                "name": "Formations",
+                "url": "formations.index",
+                "icon": "fas fa-users",
+                "sousmenu": []
+            },
+            {
+                "name": "Inscriptions",
+                "url": "inscriptions.index",
+                "icon": "fas fa-users",
+                "sousmenu": []
+            }
+        ]
+    }
+]
